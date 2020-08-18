@@ -10,7 +10,7 @@ with open('data/images/3.jpg', 'rb') as fp:
         'https://api.platerecognizer.com/v1/plate-reader/',
         data=dict(regions=regions),  # Optional
         files=dict(upload=fp),
-        headers={'Authorization': 'Token 7c9ced42ce6ac2938556d5a4e8c52422ad1b5cea'})
+        headers={'Authorization': 'Token YOUR_API_KEY'})
 data = response.json()
 
 #JSON response
