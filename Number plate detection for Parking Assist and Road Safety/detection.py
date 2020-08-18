@@ -18,11 +18,11 @@ data = response.json()
 
 #Firebase Configuration
 config = {
-    "apiKey": "AIzaSyA34_Vuo2eh6WiRFY-A3mAPtunWJSUskrY",
-    "authDomain": "raspi-284115.firebaseapp.com",
-    "databaseURL": "https://raspi-284115.firebaseio.com",
-    "projectId": "raspi-284115",
-    "storageBucket": "raspi-284115.appspot.com"
+    "apiKey": "YOUR_API_KEY",
+    "authDomain": " ",
+    "databaseURL": "YOUR_DATABASE_URL",
+    "projectId": "YOUR_PROJECT_ID",
+    "storageBucket": " "
 }
 firebase = Firebase(config)
 db = firebase.database()
